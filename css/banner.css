@@ -1,0 +1,116 @@
+#banner .box img{
+    width: 100%;
+    height: 460px;
+}
+#banner .container-1230{
+    position: relative;
+}
+#banner .banner-nav{
+    width: 234px;
+    height: 460px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*导航*/
+#banner .banner-nav ul{
+    padding: 20px 0;
+    width: 100%;
+    height: 100%;
+}
+#banner .banner-nav ul li{
+    display: flex;
+    justify-content: space-between;
+}
+#banner .banner-nav ul li:hover{
+    background-color: rgb(255,103,0);
+}
+#banner .banner-nav ul li a{
+    display: block;
+    padding-left: 30px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#banner .banner-nav ul li span{
+    font-size: 22px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+/*鼠标移入显示*/
+#banner .banner-hidden{
+    position: absolute;
+    /*width: 996px;*/
+    width: 0;
+    height: 460px;
+    background-color: white;
+    left: 234px;
+    top: 0;
+    /*box-shadow: 5px 5px 10px #dddddd;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    /*transition: all 1s;*/
+}
+#banner .banner-nav ul li:hover .banner-hidden{
+    width: 996px;
+}
+/*盒子*/
+#banner .banner-hidden .box{
+    z-index: 3;
+    position: relative;
+    width: 200px;
+    height: 40px;
+    margin: 24px 0 10px 10px;
+}
+#banner .banner-hidden .box img{
+    width: 40px;
+    height:40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#banner .banner-hidden .box a{
+    position: absolute;
+    left: 20px;
+    top: 0;
+    font-size: 16px;
+    color: black;
+}
+#banner .banner-hidden .box a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/*动画*/
+#banner .box .img-box{
+    width: 100%;
+    height: 460px;
+    background-image: url('../images/xmad_15613620547949_mqZNo.jpg');
+    background-size: 100% 460px;
+    animation: carousel 10s infinite;
+}
+@keyframes carousel {
+    0%{
+        background-image: url('../images/xmad_15613620547949_mqZNo.jpg');
+    }
+    25%{
+        background-image: url('../images/xmad_15613772537096_sFqni.jpg');
+    }
+    50%{
+        background-image: url('../images/xmad_15613620547949_mqZNo.jpg');
+    }
+    75%{
+        background-image: url('../images/xmad_15613664480985_hqpgm.jpg');
+    }
+    100%{
+        background-image: url('../images/xmad_15613698271918_JtMjl.jpg');
+    }
+
+}

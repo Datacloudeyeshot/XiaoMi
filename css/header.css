@@ -1,0 +1,16 @@
+#header{
+    background-color: #333333;
+    height: 40px;
+    line-height: 40px;
+}
+
+#header a,#header .iconfont{
+    color: #b0b0b0;
+    font-size: 14px;
+}
+#header a:hover{
+    color: #ffffff;
+}
+#header span{
+    font-size: 10px;
+}

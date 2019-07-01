@@ -1,0 +1,8 @@
+#hot-evaluate{
+    background-color: #f5f5f5;
+    padding-bottom: 20px;
+}
+#hot-evaluate .bottom{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,161 @@
+#nav .container-1230 {
+    display: flex;
+    position: relative;
+}
+
+/*左*/
+#nav div.left {
+    width: 240px;
+    height: 100px;
+}
+
+#nav div.left .logo,
+#nav div.left .logo img {
+    width: 55px;
+    height: 55px;
+    margin-top: 11px;
+}
+
+/*中*/
+#nav .center {
+    width: 700px;
+    height: 100px;
+}
+
+#nav .center ul {
+    width: 100%;
+    height: 100%;
+}
+
+#nav .center ul li {
+    height: 100%;
+}
+
+#nav .center ul li a {
+    font-size: 16px;
+    margin-right: 20px;
+    line-height: 100px;
+}
+
+#nav .center ul li a:hover {
+    color: orangered;
+}
+
+
+/*右*/
+#nav .right {
+    width: 290px;
+    height: 100px;
+    position: relative;
+}
+
+#nav .right input {
+    width: 228px;
+    height: 47px;
+    padding-left: 10px;
+    border: 1px solid #f0f0f0;
+    outline: none;
+    position: absolute;
+    left: 0;
+    top: 23px;
+}
+
+#nav .right input:focus + button span {
+    color: red;
+}
+
+#nav .right button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 0;
+    top: 23px;
+}
+
+#nav .right button:hover {
+    cursor: pointer;
+}
+
+#nav .right button span {
+    font-size: 26px;
+}
+
+/*鼠标悬停弹出的隐藏区域*/
+#nav .hidden {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: #fff;
+    height: 0;
+    border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+    box-shadow: 5px 5px 10px #333333;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+#nav .center ul li:hover .hidden {
+    height: 232px;
+}
+
+#nav .hidden .box {
+    width: 202px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+#nav .hidden .box:hover {
+    transform: translate(0, -3px);
+    cursor: pointer;
+}
+
+#nav .hidden .box button {
+    position: absolute;
+    width: 66px;
+    height: 22px;
+    border: 1px solid orangered;
+    color: orangered;
+    top: 6px;
+    left: 60px;
+}
+
+#nav .hidden .box img {
+    position: absolute;
+    height: 110px;
+    top: 35px;
+    left: 39px;
+}
+
+#nav .hidden .box .desc {
+    position: absolute;
+    top: 159px;
+    left: 53px;
+}
+
+#nav .hidden .box .desc p.title {
+    color: #333333;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+#nav .hidden .box .desc p.price {
+    color: red;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+#nav .hidden .box div.line {
+    position: absolute;
+    display: block;
+    font-size: 16px;
+    height: 110px;
+    width: 1px;
+    background-color: #333333;
+    top: 34px;
+    right: 0;
+}

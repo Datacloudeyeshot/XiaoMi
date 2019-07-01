@@ -1,0 +1,50 @@
+#ad .top{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+/*左侧小导航*/
+#ad .ad-nav ul{
+    width: 234px;
+    height: 170px;
+    background-color:#5f5750;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+#ad .ad-nav ul li{
+    width: 76px;
+    height: 83px;
+    border: 1px solid #dddddd;
+    position: relative;
+}
+#ad .ad-nav ul li span,
+#ad .ad-nav ul li p{
+    font-size: 16px;
+    color: white;
+    padding-top: 10px;
+}
+#ad .ad-nav ul li span{
+    position: absolute;
+    top: 6px;
+    font-size: 24px;
+    left: 28px;
+}
+#ad .ad-nav ul li p{
+    position: absolute;
+    top: 41px;
+    left: 7px;
+}
+/*右侧三个广告图*/
+#ad .top img{
+    width: 316px;
+    height: 170px;
+}
+
+/*底部的广告长图*/
+#ad .bottom img{
+    height: 120px;
+    width: 100%;
+    margin: 20px 0;
+}

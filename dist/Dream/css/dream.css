@@ -1,0 +1,315 @@
+/*重置样式开始*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: black;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+/*重置样式结束*/
+
+/*背景颜色开始*/
+.dark {
+    background-color: #333333;
+}
+
+/*背景颜色结束*/
+
+/*布局样式开始*/
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*布局样式结束*/
+
+/*容器样式开始*/
+.container-1230 {
+    width: 1230px;
+    margin: 0 auto;
+}
+
+/*容器样式结束*/
+/*div样式开始*/
+div.all {
+    padding-top: 20px;
+
+}
+
+div.all a,
+div.all a span {
+    font-size: 16px;
+    color: #333333;
+}
+
+div.all a:hover,
+div.all a:hover span {
+    color: rgb(253, 103, 33);
+}
+
+/*div样式结束*/
+
+/*无序列表样式开始*/
+ul.left {
+    float: left;
+}
+
+ul.left li {
+    float: left;
+}
+
+ul.right {
+    float: right;
+}
+
+ul.right li {
+    float: left;
+}
+
+ul.flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*无序列表样式结束*/
+
+/*标题样式开始*/
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+h2.left {
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    padding: 10px 0;
+    color: #333;
+}
+
+/*标题样式结束*/
+
+/*段落样式开始*/
+
+
+/*段落样式结束*/
+
+/*盒子样式开始*/
+/*盒子宽234高280开始*/
+.box-234-280 {
+    position: relative;
+    width: 234px;
+    height: 280px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.box-234-280 img,
+.box-234-280 h3,
+.box-234-280 p.price,
+.box-234-280 p.desc {
+    position: absolute;
+}
+
+.box-234-280 img {
+    width: 150px;
+    height: 150px;
+    top: 0;
+    left: 40px;
+}
+
+.box-234-280 h3 {
+    color: #333333;
+    font-size: 14px;
+    top: 151px;
+    left: 52px;
+}
+
+.box-234-280 p.price {
+    color: #ff6700;
+    font-size: 14px;
+    padding-top: 10px;
+    left: 97px;
+    top: 172px;
+}
+
+.box-234-280 p.desc {
+    color: #757575;
+    font-size: 14px;
+    top: 216px;
+    left: 92px;
+}
+
+.box-234-280:hover {
+    box-shadow: 10px 10px 20px #d5d5d5;
+    transform: translate(0, -5px);
+}
+
+/*盒子宽234高280结束*/
+
+/*盒子宽296高415开始*/
+.box-296-415 {
+    width: 296px;
+    height: 415px;
+    position: relative;
+    background-color: #fff;
+}
+
+.box-296-415 img {
+    width: 296px;
+    height: 220px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box-296-415 .desc {
+    width: 240px;
+    height: 159px;
+    margin: 20px auto;
+    position: absolute;
+    top: 220px;
+    left: 26px;
+}
+
+.box-296-415 .desc .top {
+    font-size: 14px;
+    color: #333333;
+    width: 240px;
+    text-overflow: ellipsis;
+    /*单行改为nowrap*/
+    white-space: normal;
+    overflow: hidden;
+    height: 60px;
+
+}
+
+.box-296-415 .desc .author {
+    font-size: 12px;
+    color: #b0b0b0;
+    padding-top: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.box-296-415 .desc div.name {
+    padding-top: 10px;
+}
+
+.box-296-415 .desc div.name span {
+    font-size: 14px;
+}
+
+.box-296-415 .desc span.name {
+    display: inline-block;
+    width: 170px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #333333;
+}
+
+.box-296-415 .desc span.iconfont {
+    color: #e0e0e0;;
+}
+
+.box-296-415 .desc span.price {
+    color: #ff6700;
+}
+
+.box-296-415:hover {
+    box-shadow: 10px 10px 20px #d5d5d5;
+    transform: translate(0, -5px);
+}
+
+/*盒子宽296高415结束*/
+
+/*盒子宽296 高285 开始*/
+.box-296-285 {
+    width: 296px;
+    height: 285px;
+    background-color: #fff;
+    position: relative;
+}
+
+.box-296-285 .top {
+    width: 296px;
+    height: 180px;
+}
+
+.box-296-285 .top img,
+.box-296-285 .top video {
+    width: 100%;
+    height: 100%;
+}
+
+.box-296-285 .top {
+    position: relative;
+}
+
+.box-296-285 .top span {
+    position: absolute;
+    font-size: 61px;
+    color: white;
+    top: 55px;
+    left: 116px;
+}
+
+.box-296-285 .top:hover span {
+    color: rgb(255, 103, 33);
+    cursor: pointer;
+}
+
+.box-296-285 .bottom {
+    width: 100%;
+    height: 105px;
+    text-align: center;
+}
+
+.box-296-285 .bottom p.title {
+    margin-top: 30px;
+}
+
+.box-296-285 .bottom p.title a {
+    font-size: 16px;
+    color: #333333;
+}
+
+.box-296-285 .bottom p.title a:hover {
+    color: rgb(253, 133, 23);
+}
+
+.box-296-285 .bottom p.desc {
+    margin-top: 10px;
+    color: #b0b0b0;
+    font-size: 12px;
+}
+
+/*盒子宽296 高285 结束*/
+
+/*盒子样式结束*/
+
+/*盒子悬停样式开始*/
+.box:hover,
+.box-hover:hover {
+    box-shadow: 10px 10px 20px #d5d5d5;
+    transform: translate(0, -5px);
+}
+
+/*盒子悬停样式结束*/

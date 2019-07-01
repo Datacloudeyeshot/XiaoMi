@@ -1,0 +1,112 @@
+#phone {
+    background-color: #f5f5f5;
+}
+
+#phone .top {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#phone .top h2 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+#phone .top p a,
+#phone .top p span {
+    font-size: 16px;
+}
+
+#phone .top p a:hover {
+    color: rgb(255, 103, 0);
+}
+
+/*手机列表*/
+/*左边*/
+#phone .bottom {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+#phone .bottom .left {
+    margin-top: 20px;
+}
+
+#phone .bottom .left,
+#phone .bottom .left img {
+    background-color: gold;
+    width: 234px;
+    height: 614px;
+}
+
+/*右边*/
+#phone .bottom .right {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#phone .bottom .right .box {
+    width: 234px;
+    height: 305px;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#phone .bottom .right .box .top button,
+#phone .bottom .right .box .img-box,
+#phone .bottom .right .box div.desc {
+    position: absolute;
+}
+
+#phone .bottom .right .box .top button {
+    width: 64px;
+    height: 20px;
+    color: white;
+    background-color: #83c44e;
+    top: 14px;
+    left: 87px;
+}
+
+#phone .bottom .right .box .img-box,
+#phone .bottom .right .box .img-box img {
+    width: 160px;
+    height: 160px;
+    top: 46px;
+    left: 39px;
+}
+
+#phone .bottom .right .box .desc {
+    top: 210px;
+    left: 21px;
+}
+
+#phone .bottom .right .box .desc h3 {
+    font-size: 14px;
+    color: #333333;
+}
+
+#phone .bottom .right .box .desc p.desc {
+    font-size: 12px;
+    color: #b0b0b0;
+    padding-top: 5px;
+}
+
+#phone .bottom .right .box .desc p.price {
+    font-size: 12px;
+    padding-top: 10px;
+    color: #ff6700;
+}
+
+/*鼠标移入动画*/
+#phone .left:hover,
+#phone .right .box:hover {
+    box-shadow: 3px 3px 1px #9d9d9d;
+    transform: translate(0, -3px);
+}
